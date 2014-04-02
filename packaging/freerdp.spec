@@ -28,6 +28,7 @@ according to the Microsoft Open Specifications.
 %package devel
 Summary: Development files for package %{name}
 Group:   Graphics & UI Framework/Development
+Requires: freerdp = %{version}-%{release}
 %description devel
 This package provides header files and other developer related files
 for package %{name}.
